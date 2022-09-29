@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RedLine Login</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="login.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="login.php" method="post" class="form-container">
+        <h1 class="login-header">Login</h1>
+        <p class="username-label">Username</p>
+        <input type="text" name="username" id="username" />
+        <br />
+        <p class="password-label">Password</p>
+        <input type="password" name="passwd" id="password" />
+        <br/> <br>
+        <button type="submit" name="login" class="login-btn" >Login</button>
+        <br />
+        <p class="create-descrip">
+          Don't have an account? <a href="" id="create-link">Create Account</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

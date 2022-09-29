@@ -1,0 +1,63 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Media Query for Mobile */
+@media only screen and (min-width: 428px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+    }
+
+    .form-container{
+        border: 2px solid #000;
+        border-radius: 2em;
+        padding: em;
+        width: 70vw;
+        height: 60vh;
+        padding: 2em;
+    }
+    .login-header{
+        font-weight: 700;
+        font-size: 5vh;
+    }
+    .username-label, .password-label{
+        font-weight: 400;
+        font-size: 2.5vh;
+    }
+    #username, #password{
+        font-size: 2.5vh;
+        width: 70vw;
+        height: 4vh;
+    }
+
+    .login-btn{
+        font-size: 2.5vh;
+        width: 65vw;
+        height: 10vh;
+        color: #fff;
+        background-color: #E64848;
+        border-color: #E64848;
+    }
+
+    .create-descrip{
+        font-weight: 400;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+    #create-link{
+        font-weight: 400;
+        font-size: 2.5vh;
+        color: #000;
+    }
+}
