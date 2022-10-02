@@ -9,19 +9,18 @@ html, body{
     box-sizing: border-box;
     margin: 0;
 }
-
-/* Media Query for Mobile */
-@media only screen and (min-width: 428px) {
-    .container{
-        display: flex;
-        justify-content: center;
-        margin-top: 10vh;
-    }
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+/* Media Query for Mobile & Tablet*/
+@media only screen and (min-width: 375px) {
 
     .form-container{
         border: 2px solid #000;
         border-radius: 2em;
-        padding: em;
+        padding: 2em;
         width: 70vw;
         height: 60vh;
         padding: 2em;
@@ -42,11 +41,12 @@ html, body{
 
     .login-btn{
         font-size: 2.5vh;
-        width: 65vw;
-        height: 10vh;
+        width: 71vw;
+        height: 5vh;
         color: #fff;
         background-color: #E64848;
         border-color: #E64848;
+        text-align: center;
     }
 
     .create-descrip{
